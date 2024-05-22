@@ -3,7 +3,6 @@ return {
   -- LSP Configuration
   -- https://github.com/neovim/nvim-lspconfig
   'neovim/nvim-lspconfig',
-  event = 'VeryLazy',
   dependencies = {
     -- LSP Management
     -- https://github.com/williamboman/mason.nvim
