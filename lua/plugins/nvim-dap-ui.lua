@@ -2,7 +2,6 @@
 return {
   -- https://github.com/rcarriga/nvim-dap-ui
   'rcarriga/nvim-dap-ui',
-  event = 'VeryLazy',
   dependencies = {
     -- https://github.com/mfussenegger/nvim-dap
     'mfussenegger/nvim-dap',
