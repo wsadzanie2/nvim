@@ -13,7 +13,7 @@ keymap.set("n", "gx", ":!open <c-r><c-a><CR>") -- open URL under cursor
 
 -- Split window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
-keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
+keymap.set("n", "<leader>sp", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width
 keymap.set("n", "<leader>sx", ":close<CR>") -- close split window
 keymap.set("n", "<leader>sj", "<C-w>-") -- make split window height shorter
@@ -26,6 +26,12 @@ keymap.set("n", "<leader>to", ":tabnew<CR>") -- open a new tab
 keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close a tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") -- next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") -- previous tab
+
+-- Terminal management
+keymap.set("n", "<leader><space>l", ":vs<CR>:terminal<CR>")
+keymap.set("n", "<leader><space>j", ":sp<CR>:terminal<CR>")
+keymap.set("t", "<leader><ESC>", '<C-\\><C-n>', {noremap = true})
+
 
 -- Diff keymaps
 keymap.set("n", "<leader>cc", ":diffput<CR>") -- put diff from current to other during diff
@@ -132,3 +138,5 @@ vim.api.nvim_set_keymap('n', '<S-F6>',
 
 -- Toggle compiler results
 vim.api.nvim_set_keymap('n', '<S-F7>', "<cmd>CompilerToggleResults<cr>", { noremap = true, silent = true })
+
+
