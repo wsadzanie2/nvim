@@ -30,7 +30,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") -- previous tab
 -- Terminal management
 keymap.set("n", "<leader><space>l", ":vs<CR>:terminal<CR>")
 keymap.set("n", "<leader><space>j", ":sp<CR>:terminal<CR>")
-keymap.set("t", "<leader><ESC>", '<C-\\><C-n>', {noremap = true})
+keymap.set("t", "<ESC>", '<C-\\><C-n>', {noremap = true})
 
 
 -- Diff keymaps
