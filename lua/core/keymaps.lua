@@ -8,6 +8,7 @@ keymap.set("i", "jk", "<ESC>") -- exit insert mode with jk
 keymap.set("i", "ii", "<ESC>") -- exit insert mode with ii
 keymap.set("n", "<leader>wq", ":wq<CR>") -- save and quit
 keymap.set("n", "<leader>qq", ":q!<CR>") -- quit without saving
+keymap.set("n", "<leader>qa", ":qa<CR>") -- quit without saving
 keymap.set("n", "<leader>ww", ":w<CR>") -- save
 keymap.set("n", "gx", ":!open <c-r><c-a><CR>") -- open URL under cursor
 
@@ -24,8 +25,8 @@ keymap.set("n", "<leader>sh", "<C-w><5") -- make split windows width smaller
 -- Tab management
 keymap.set("n", "<leader>to", ":tabnew<CR>") -- open a new tab
 keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close a tab
-keymap.set("n", "<leader>tn", ":tabn<CR>") -- next tab
-keymap.set("n", "<leader>tp", ":tabp<CR>") -- previous tab
+keymap.set("n", ".", ":tabn<CR>") -- next tab
+keymap.set("n", ",", ":tabp<CR>") -- previous tab
 
 -- Terminal management
 keymap.set("n", "<leader><space>l", ":vs<CR>:terminal<CR>")
