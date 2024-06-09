@@ -1,5 +1,5 @@
 -- LSP Support
-return {
+return {{
   -- LSP Configuration
   -- https://github.com/neovim/nvim-lspconfig
   'neovim/nvim-lspconfig',
@@ -73,5 +73,7 @@ return {
     end
 
   end
+},
+  'nvim-lua/completion-nvim'
 }
 
