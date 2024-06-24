@@ -133,8 +133,9 @@ keymap.set("n", '<leader>df', '<cmd>Telescope dap frames<cr>')
 keymap.set("n", '<leader>dh', '<cmd>Telescope dap commands<cr>')
 keymap.set("n", '<leader>de', function() require('telescope.builtin').diagnostics({default_text=":E:"}) end)
 
--- transparency
+-- transparency and color highlighting
 keymap.set("n", '<leader>mm', '<cmd>TransparentToggle<cr>')
+keymap.set("n", '<leader>mn', '<cmd>HighlightColors Toggle<cr>')
 
 
 -- Open compiler
