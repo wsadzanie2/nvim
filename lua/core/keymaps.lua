@@ -34,10 +34,10 @@ keymap.set("n", "<leader><space>j", ":sp<CR>:terminal<CR>")
 keymap.set("t", "<ESC>", '<C-\\><C-n>', {noremap = true})
 
 -- Go between splits
-keymap.set("n", '<C-l>', 'wincmd l<CR>')
-keymap.set("n", '<C-h>', 'wincmd h<CR>')
-keymap.set("n", '<C-j>', 'wincmd j<CR>')
-keymap.set("n", '<C-k>', 'wincmd k<CR>')
+keymap.set("n", '<C-l>', ':wincmd l<CR>')
+keymap.set("n", '<C-h>', ':wincmd h<CR>')
+keymap.set("n", '<C-j>', ':wincmd j<CR>')
+keymap.set("n", '<C-k>', ':wincmd k<CR>')
 
 keymap.set("t", '<C-l>', '<C-\\><C-n><C-w>l<CR>')
 keymap.set("t", '<C-h>', '<C-\\><C-n><C-w>h<CR>')
