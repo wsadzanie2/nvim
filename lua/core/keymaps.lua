@@ -11,6 +11,7 @@ keymap.set("n", "<leader>qq", ":q!<CR>") -- quit without saving
 keymap.set("n", "<leader>qa", ":qa<CR>") -- quit without saving
 keymap.set("n", "<leader>ww", ":w<CR>") -- save
 keymap.set("n", "gx", ":!open <c-r><c-a><CR>") -- open URL under cursor
+keymap.set("n", "i", "zzi") -- center the screen when going to insert mode
 
 -- Split window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
