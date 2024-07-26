@@ -1,5 +1,5 @@
 -- Inline Debug Text
-return {
+return {{
   -- https://github.com/theHamsta/nvim-dap-virtual-text
   'theHamsta/nvim-dap-virtual-text',
   lazy = true,
@@ -15,5 +15,6 @@ return {
       end
     end,
   }
-}
+},
+"mfussenegger/nvim-dap"}
 
