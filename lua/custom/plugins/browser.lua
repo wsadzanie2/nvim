@@ -1,0 +1,3 @@
+return {
+  'TwoSpikes/browse.nvim',
+}
